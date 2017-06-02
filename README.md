@@ -1,7 +1,9 @@
-# Arduino-SunTrackingSolarPanel
+# Arduino Uno sun tracking solar panel prototype
 Sun tracking Solar Panel with Arduino Uno
 
 Osallistuimme Tero Karvisen ohjaamalle Prototyypin rakentaminen -kurssille, jossa tavoitteena oli tehdä jokin sulautetun järjestelmän prototyyppi viikossa. Toteutukseen oli tarjolla mm. Arduino Uno ja ESP8266-12E -mikrokontrollereita, sekä lukuisia erilaisia sensoreita ja muita komponentteja. 
+
+Tarkoituksena oli tehdä prototyyppi itsenäisestä laitteesta, joka seuraa auringon liikettä optimoidakseen aurinkokennojen tehokkuuden. Prototyyppi toteutettiin yhdessä yhdessä viikossa ilman ennakko-osaamista Arduinon -mikrokontrollerin käytöstä.
 
 # Maanantai
 Päätimme toteuttaa Arduinolla ohjatun aurinkosensorin ja sensorin avulla ohjattavan aurinkopaneeliasetelman. Idea kurssin työksi löytyi helposti, ja saimmekin myös heti sen toteuttamiseen tarvittavat komponentit. Valoisuustason mittaamiseen käytimme neljää LDR-sensoria (Light Dependent Resistor), joiden arvojen mukaan paneeli kääntyy aurinkoa kohti. Kytkennät tehtiin Arduinon Sensor Shieldiä käyttäen, jotta vältyttäisiin lukuisten hyppylankojen aiheuttamalta ns. ”johtospagetilta”.
